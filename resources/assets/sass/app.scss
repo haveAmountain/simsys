@@ -110,3 +110,50 @@ footer {
     font-weight: bold;
   }
 }
+
+
+/* sidebar */
+
+aside {
+  section {
+    padding: 10px 0;
+    margin-top: 20px;
+    &:first-child {
+      border: 0;
+      padding-top: 0;
+    }
+    span {
+      display: block;
+      margin-bottom: 3px;
+      line-height: 1;
+    }
+  }
+}
+
+.user-info
+{
+    margin-top: 20px;
+    text-align: center;
+    .avatar{
+        display: inline-block;
+    }
+}
+.gravatar
+{
+    border-radius: 50%;
+}
+
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  margin-bottom: 15px;
+}
+
+input {
+  height: auto !important;
+}
+
+.panel {
+  margin-top: 50px;
+}
